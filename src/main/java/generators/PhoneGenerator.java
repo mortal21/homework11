@@ -5,7 +5,7 @@ import utils.MyMath;
 
 import java.util.Random;
 
-public class PhoneGenerator implements Generator<Phone> {
+public class PhoneGenerator extends Generator<Phone> {
 
     private String number;
 
@@ -26,4 +26,3 @@ public class PhoneGenerator implements Generator<Phone> {
         return new Phone(number);
     }
 }
-
