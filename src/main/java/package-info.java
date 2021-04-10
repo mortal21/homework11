@@ -3,7 +3,7 @@
  * Factory:     Generator-классы, туда вынесена сложная логика создания
  * Builder:     class Person - собираем Person по частям в Билдере, так как много параметров
  * Adapter:     Не применён - не требуется
- * Bridge:      Не применён - не требуется
+ * Bridge:      class Hair - убрали наследование, параметризируем длину волос вместо отдельных классов
  * Facade:      В class InputProcessor - в class Person вынесли метод String build,
  *              который собирает Person внутри класса и не выносит логику наружу
  * DTO:         class Fio, Physical, Appearance - для уменьшения кода и обобщения
